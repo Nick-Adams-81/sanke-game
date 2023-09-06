@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Gameframe extends JFrame {
 
-     void Gamefrme() {
+    Gameframe() {
         this.add(new GamePanel());
         this.setTitle("Snake Game");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -12,4 +12,5 @@ public class Gameframe extends JFrame {
         this.setLocationRelativeTo(null);
 
     }
+
 }
